@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, {useState, useEffect} from 'react';
 import {
   Jumbotron,
@@ -10,7 +11,7 @@ import {
 } from 'react-bootstrap';
 
 import Auth from '../utils/auth';
-import {saveBook, searchGoogleBooks} from '../utils/API';
+import { searchGoogleBooks} from '../utils/API';
 import {saveBookIds, getSavedBookIds} from '../utils/localStorage';
 import {useMutation} from '@apollo/react-hooks';
 import {SAVE_BOOK} from '../utils/mutations';
